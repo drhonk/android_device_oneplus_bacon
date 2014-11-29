@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/bacon/bacon.mk)
 
 # Inherit some common CRDROID stuff
-$(call inherit-product, vendor/crdroid/config/gsm.mk)
+# $(call inherit-product, vendor/crdroid/config/gsm.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/crdroid/config/nfc_enhanced.mk)
